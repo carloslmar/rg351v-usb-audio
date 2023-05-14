@@ -41,4 +41,4 @@ I made these 2 small scripts in order to make it easier to switch between speake
 
 You'll need to relaunch your emulator after plugging/unplugging/updating /etc/asound.conf. Oh, and alsamixer doesn't save your volume selection by default. run "sudo alsactl store" to do this.
 
-After all the steps are completed, you may copy UsbAudio.sh and SpeakerAudio.sh to roms/Tools. If your audio does not work, restart the audio service by running `systemctl --user restart pulseaudio`
+After all the steps are completed, you may copy UsbAudio.sh and SpeakerAudio.sh to roms/Tools. If your audio does not work, restart the audio service by running `systemctl --user restart pulseaudio` or set your device to sleep, then wake it back up by tapping the power button. 
